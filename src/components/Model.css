@@ -1,0 +1,37 @@
+.alertback {
+  background-color: #000000b4;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+}
+.messagebox {
+  background-color: white;
+  width: 30%;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  position: absolute;
+  left: 38%;
+  z-index: 10;
+}
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  gap: 20px;
+}
+.delete button {
+  background-color: #dd4040;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+.cancle button {
+  background-color: #969da5;
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+}

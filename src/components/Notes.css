@@ -1,0 +1,31 @@
+.shopping-card {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  width: 30%;
+  word-wrap: break-word;
+}
+.shopping {
+  font-weight: bold;
+  font-size: 16px;
+}
+.goshopping {
+  margin-top: 10px;
+}
+.timing {
+  color: gray;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.note-delete button {
+  margin-top: 20px;
+  border: none;
+  background-color: crimson;
+  padding: 11px;
+  border-radius: 6px;
+  color: white;
+  font-size: 17px;
+}
+.note-delete button:hover {
+  background-color: rgb(189, 5, 42);
+}

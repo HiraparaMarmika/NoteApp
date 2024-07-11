@@ -1,0 +1,78 @@
+.form-dark {
+  background-color: aquamarine;
+  color: white;
+}
+.form-light {
+  color: black;
+}
+.notes {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+.create-note {
+  color: black;
+}
+.note-info {
+  color: black;
+  /* width: 0px; */
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.note-title {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid grey;
+  border-radius: 6px;
+}
+.note-title:hover {
+  border-color: aqua;
+  box-shadow: 0 0 0 0.25rem aqua;
+}
+::placeholder {
+  font-size: 17px;
+}
+input:focus-visible {
+  outline: none;
+}
+textarea:focus-visible {
+  outline: none;
+}
+.note-discription {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid grey;
+  border-radius: 6px;
+}
+.note-discription:hover {
+  border-color: aqua;
+  box-shadow: 0 0 0 0.25rem aqua;
+}
+.discription {
+  margin-top: 20px;
+}
+.color {
+  margin-top: 10px;
+}
+.note-color {
+  margin-top: 10px;
+  border-radius: 8px;
+}
+/* .note-color:hover{
+    border-color: aqua;
+   width: 10%;
+  } */
+.note-button button {
+  color: white;
+  background-color: #3838d4;
+  padding: 15px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.note-button button:hover {
+  background-color: blue;
+}
